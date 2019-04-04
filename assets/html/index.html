@@ -4,16 +4,25 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<title>Portfolio TM</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 </head>
 <body>
 
-	<nav>
-		<button>Qui suis-je ?</button>
-		<button>Contact</button>
-		<button>Me suivre</button>
+	<nav id="menu">
+		<a href="#Qui">
+			<button>Qui suis-je ?</button>
+		</a>
+		<a href="#Contact">
+			<button>Contact</button>
+		</a>
+		<a href="#Suivre">
+			<button>Me suivre</button>
+		</a>
 	</nav>
 
-	<header>
+	<header id="header">
 		<h1>TIFENN MORVAN</h1>
 		<h2>Développeuse Web de l'Espace</h2>
 	</header>
@@ -22,16 +31,16 @@
 		<img src="../img/profil.png" width="250">
 	</div>
 
-	<div>
+	<div id="Qui" class="col-11 offset-1">
 		<h3>Qui suis-je ?</h3>
 		<p>Développer n'est pas de tout repos ! Pour arriver sur la voie de la programmation et des langages informatiques, j'ai grimpé quelques branches dans divers secteurs.</p>
 		<p>Aujourd'hui, ma reconversion est plus qu'entamée et pour mettre en application mes nouvelles connaissances je créer ce portfolio !</p>
-		<p>Quel rapport avec l'Espace? Je suis passionnée d'Astronomie et le développement éveille en moi la même curiosité que lorque je plonge mon regard dans le Ciel.</p>
+		<p>Quel rapport avec l'Espace? Je suis passionnée d'Astronomie et le développement éveille en moi la même curiosité que lorque je plonge mon regard dans le Ciel !</p>
 	</div>
 
-	<div>
+	<div id="Contact">
 		<h3>Contactez-moi !</h3>
-		<form>
+		<form id="formulaire">
 			<div>
 				<label for="expediteur">Votre email</label>
 				<input type="text" name="expediteur">
@@ -47,9 +56,9 @@
 		</form>
 	</div>
 
-	<div>
+	<div id="Suivre">
 		<h3>Envie de me suivre ?</h3>
-		<div>
+		<div class="col-12 offset-2">
 			<a href="https://github.com/Tyfend" target="_blank">
 				<img src="../img/githubLogo.png" width="100" alt="Profil Github">
 			</a>
