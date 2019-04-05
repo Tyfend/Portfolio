@@ -13,6 +13,9 @@ création de mon Portfolio avec HTML5 ET CSS3.
 
   * __Image__ : 
 <img src="assets/img/linkedinLogo.png" width="100" alt="logo linkedin">
+<img src="assets/img/githubLogo.png" width="100" alt="logo github">
+<img src="assets/img/profil.png" width="100" alt="Photo profil">
+
 
   * __Coordonnées + formulaire de contact__ : morvantifenn@gmail.com.
 
@@ -21,3 +24,7 @@ création de mon Portfolio avec HTML5 ET CSS3.
 
 ##### Il parait qu'il faut que ça soit beau ET cool et qu'on nous souhaite bon courage. Petit smiley sourire.
 
+  * __Maquette__ :
+
+  <img src="assets/img/maquette1.JPEG" width="100" alt="Photo maquette 1">
+  <img src="assets/img/maquette2.JPEG" width="100" alt="Photo maquette 2">
