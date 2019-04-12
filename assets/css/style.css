@@ -1,47 +1,67 @@
+/* Image de fond de la page
+*  fixe et pas de répétition */
 body {
 	background: url(../img/whitebackground.jpg)  fixed no-repeat;
-	/*background-repeat: no-repeat;*/
 	background-size: cover;
 }
+
+
+/* Mise en forme du titre h1 */
 .name {
 	font-size: 2em;
 	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
+
+/* Mise en forme du titre 1 h2 */
 .futdev {
 	text-align: center;
 	font-size: 1.05em;
 	letter-spacing: 0.1em;
 }
 
+
+/* Mise en forme du titre 2 h2*/
 .fromspace {
 	text-align: center;
 	font-size: 1.05em;
 	letter-spacing: 1.03em;
 }
 
+
+/* Bordure photo de profil*/
 #profilpicture {
 	border-style: dashed solid;
 	border-size: 20em;
 	border-width: thick;
 }
 
+
+/* Mise en forme du texte de l'ancre 1 */
 #Qui {
 	text-align: justify;
 	font: 0.9em "Fira Sans", sans-serif;
 }
 
 
+/* Mise en forme du formulaire */
 label {
 	display: block;
 	width: 300px;
 	float: left;
 }
-
 #formulaire {
 	font-size: 12px;
 }
 
+
+/* Curseur sur les icones réseaux sociaux */
+.socialIcon {
+	cursor: pointer;
+}
+
+
+/* Mise en forme du footer */
 #footer {
 	font-size: 12px;
 }
