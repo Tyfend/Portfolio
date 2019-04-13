@@ -13,19 +13,11 @@ body {
 }
 
 
-/* Mise en forme du titre 1 h2 */
+/* Mise en forme du titre h2 */
 .futdev {
 	text-align: center;
 	font-size: 1.05em;
-	letter-spacing: 0.1em;
-}
-
-
-/* Mise en forme du titre 2 h2*/
-.fromspace {
-	text-align: center;
-	font-size: 1.05em;
-	letter-spacing: 1.03em;
+	letter-spacing: 0.2em;
 }
 
 
@@ -56,7 +48,7 @@ label {
 
 
 /* Curseur sur les icones réseaux sociaux */
-.socialIcon {
+.socialIcon a {
 	cursor: pointer;
 }
 
